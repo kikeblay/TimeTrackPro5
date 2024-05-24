@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Imagen de registro -->
+    <ImageView
+        android:id="@+id/imagenRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imagen_marca"
+        android:layout_marginTop="5dp"/>
+
+    <!-- TextView para mostrar el estado del usuario -->
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALIDA"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="#63dae0"/>
+
+    <!-- Contenedor del botón de entrada -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Botón de entrada -->
+        <ImageButton
+            android:id="@+id/btnSalida"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:src="@drawable/imagen_salida"
+            android:background="@android:color/transparent"
+            android:onClick="ficharSalida"/>
+
+    </LinearLayout>
+
+    <!-- Contador de tiempo transcurrido desde el fichaje de entrada -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+        <TextView
+            android:id="@+id/tvTiempoTranscurrido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

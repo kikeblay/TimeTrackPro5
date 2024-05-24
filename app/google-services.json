@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "424965544534",
+    "project_id": "timetrackpro4",
+    "storage_bucket": "timetrackpro4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424965544534:android:9c7ca463ec5da71792b9f7",
+        "android_client_info": {
+          "package_name": "com.example.timetrackpro4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5L0kBS9YMZdTRMzhyEcxEw7VqAsNrakw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "hash_config": {
+    "algorithm": "SCRYPT",
+    "base64_signer_key": "9aHhRhiMwl/Kh97WvT+q3+5yndu2KfaCZ3GZYiaVK7AVysciKFxzUxitoJVwLIUpc7KsTw81gvPF5eQ0gPVYww==",
+    "base64_salt_separator": "Bw==",
+    "rounds": 8,
+    "mem_cost": 14
+  },
+  "configuration_version": "1"
+}
